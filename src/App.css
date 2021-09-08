@@ -1,0 +1,53 @@
+.App {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  color: #0a0a0a;
+  text-align: center;
+}
+
+.mode h1 {
+  font-size: 10rem;
+  font-weight: 100;
+  margin: 0 0 0.5em;
+}
+.mode h2 {
+  font-size: 4rem;
+  font-weight: 500;
+  margin: 0;
+}
+p {
+  font-size: 2rem;
+}
+
+b {
+  font-weight: 800;
+}
+
+button {
+  cursor: pointer;
+  font-size: 3rem;
+  padding: 1.25em 1em;
+  line-height: 0;
+  border: none;
+  background: #5a5a5a;
+  color: white;
+  border-radius: 0.25em;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background: #0a0a0a;
+}
+
+.switch-modes-section {
+  position: absolute;
+  bottom: 2rem;
+}
+.switch-modes-button {
+  font-size: 1.5rem;
+}
